@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class EdeviceConfig(AppConfig):
+class DeviceapiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'edevice'
+    name = 'deviceapi'

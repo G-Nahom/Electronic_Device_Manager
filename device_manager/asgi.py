@@ -1,5 +1,5 @@
 """
-ASGI config for Electronic_Device_Manager project.
+ASGI config for device_manager project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Electronic_Device_Manager.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'device_manager.settings')
 
 application = get_asgi_application()
